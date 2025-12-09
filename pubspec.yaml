@@ -17,6 +17,7 @@ dependencies:
   shared_preferences: ^2.2.3 # Untuk menyimpan data profil
   flip_card: ^0.7.0         # Untuk animasi kartu flip
   google_fonts: ^6.2.1
+  http: ^1.2.0
 
 dev_dependencies:
   # 'flutter_test' dan 'flutter_lints' harus di-indentasi

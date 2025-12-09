@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart'; // Impor Google Fonts
+import 'package:google_fonts/google_fonts.dart'; 
 import 'package:funquiz_apps/pages/home_page.dart';
-import 'package:funquiz_apps/pages/login_page.dart';
+import 'package:funquiz_apps/pages/login_page.dart'; 
 import 'package:funquiz_apps/pages/profile_page.dart';
 import 'package:funquiz_apps/pages/quiz_page.dart';
 
-const Color kPrimaryColor = Color(0xFF4A148C); // Ungu Tua
-const Color kAccentColor = Color(0xFF00ACC1); // Teal Cerah
+
+const Color kPrimaryColor = Color(0xFF4A148C);    // Ungu Tua
+const Color kAccentColor = Color(0xFF00ACC1);     // Teal Cerah
 const Color kBackgroundColor = Color(0xFFF5F5F5); // Abu-abu Sangat Muda
-const Color kTextColor = Color(0xFF333333); // Abu-abu Tua (untuk teks)
+const Color kTextColor = Color(0xFF333333);       // Abu-abu Tua (untuk teks)
 
 void main() {
   runApp(const FunQuizApp());
@@ -27,11 +28,11 @@ class FunQuizApp extends StatelessWidget {
         brightness: Brightness.light,
         scaffoldBackgroundColor: kBackgroundColor,
         
-        // Atur font default ke Poppins
+    
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
             .apply(bodyColor: kTextColor),
         
-        // Atur skema warna baru
+   
         colorScheme: ColorScheme.light(
           primary: kPrimaryColor,
           secondary: kAccentColor,
@@ -46,7 +47,7 @@ class FunQuizApp extends StatelessWidget {
           backgroundColor: Colors.transparent,
           elevation: 0,
           centerTitle: true,
-          iconTheme: IconThemeData(color: kPrimaryColor), // Ikon AppBar
+          iconTheme: const IconThemeData(color: kPrimaryColor), // Ikon AppBar
           titleTextStyle: GoogleFonts.poppins( // Judul AppBar
             color: kPrimaryColor,
             fontWeight: FontWeight.w600,
@@ -85,15 +86,16 @@ class FunQuizApp extends StatelessWidget {
 
         // Tema untuk Kartu
         cardTheme: CardThemeData(
-          elevation: 0, // Kita akan gunakan custom shadow
+          elevation: 0, 
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
           ),
         ),
       ),
-      // --- AKHIR TEMA BARU ---
+   
       
-      initialRoute: '/login',
+      // Ganti ke '/home' jika Login Page belum siap
+      initialRoute: '/login', 
       routes: {
         '/login': (context) => const LoginPage(),
         '/home': (context) => const HomePage(),
