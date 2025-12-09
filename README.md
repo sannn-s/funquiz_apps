@@ -1,13 +1,13 @@
 # Fun Quiz Apps
 
-##A. Aplikasi ini bertema pendidikan, yang dimana aplikasi ini bertujuan untuk menambah wawasan orang-orang tentang berbagai macam ilmu pengetahuan lewat aplikasi quiz sederhana seperti ini.
+## A. Aplikasi ini bertema pendidikan, yang dimana aplikasi ini bertujuan untuk menambah wawasan orang-orang tentang berbagai macam ilmu pengetahuan lewat aplikasi quiz sederhana seperti ini.
 Aplikasi ini memiliki 4 halaman, setiap halaman nya memiliki tujuan yang berbeda-beda:
 1. Halaman login, halaman ini berfungsi sebagai pintu masuk user ke dalam aplikasi artinya ini merupakan halaman untuk mencatat data login dari user. Data login yang diperlukan yaitu username dan juga password. Pada aplikasi ini masih dalam proses pengembangan agar user dapat menyimpan data login nya, jadi untuk sekarang masih bisa login langsung sesuai inputan tanpa perlu sign up.
 2. Halaman utama, halaman utama ini berfungsi untuk menampilkan jenis kategori dari quiz yang ada. Jadi bisa memilih ingin memulai quiz dengan kategori yang mana, selain itu terdapat juga bagian yang menampilkan tumbol untuk random quiz, yang dimana ini akan menavigasi ke arah bagian random quiz atau quiz acak.
 3. Halaman Quiz, pada halaman ini berfungsi untuk menampilkan pertanyaan dan juga jawaban dari setiap soal, di dalam halaman ini terdapat sebuah card yang menampilkan pertanyaan dan jawaban quiz. Pertanyaan quiz akan muncul terlebih dahulu, jika card ditekan maka card akan berbalik dan menampilkan jawaban dari pertanyaan tersebut. Selain itu, di halaman ini terdapat 2 tombol yaitu tombol "next" dan juga tombol "previous" yang berfungsi untuk melanjutkan ke soal berikutnya atau kembali ke soal sebelumnya dan terakhir di halaman ini terdapat icon "love" yang berfungsi untuk "menyukai" soal-soal yang yang disukai
 4. Halaman profile, pada halaman ini berfungsi untuk nemapilkan profil dari pengguna atau user, disini juga terdapat ket berapa soal yang "disukai" kemudian terdapat keterangan sudah berapa soal yang dibuka atau dimainkan dan yang terakhir terdapat button "logout" yang berfungsi untuk keluar.
 
-##B. Daftar Endpoint API:
+## B. Daftar Endpoint API:
 Aplikasi ini menggunakan Firebase Realtime Database yang diakses melalui protokol HTTP (REST API) dengan menambahkan ekstensi .json.
 1. Base URL
    [https://funquiz-123-default-rtdb.firebaseio.com/](https://funquiz-123-default-rtdb.firebaseio.com/)
@@ -15,7 +15,7 @@ Aplikasi ini menggunakan Firebase Realtime Database yang diakses melalui protoko
    Endpoint ini digunakan untuk mengambil seluruh database soal (Sports, History, dll) dalam satu kali request.
    - Method: GET
 
-##C. Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
+## C. Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
 1. Pada halaman login, user melakukan sign up terlebih dahulu untuk menyimpan akun kemudian setelah itu login
 2. Kemudian di halaman berikutnya, user dapat memilih ingin memulai quiz dengan pilihan random quiz atau quiz sesuai kategori
 3. Jika sudah menentukan, user akan masuk ke halaman quiz yang dimana terdapat soal dan juga jawaban. Setelah user melihat soal dan jika sudah menebak jawaban atau belum terpikirkan jawaban nya apa user dapat menekan card pertanyaan tersebut dan card tersebut akan berbalik kemudian user dapat melihat jawaban nya
