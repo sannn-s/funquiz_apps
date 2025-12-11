@@ -22,7 +22,11 @@ Aplikasi ini menggunakan Firebase Realtime Database yang diakses melalui protoko
    - Koneksi internet (Wajib untuk fetch API)
    - Emulator Android/iOS atau smartphone untuk menjalankan aplikasi
 2. Langkah Instalasi
-   - Download folder FunQuizApps
+   - Download folder funquiz_apps
+   - Buka folder proyek funquiz_apps di Text editor (Visual Studio Code / Android Studio)
+   - Buka terminal dan jalankan perintah: flutter pub get
+   - Pastikan emulator atau perangkat fisik terhubung
+   - Buka terminal kemudian jalankan aplikasi dengan perintah: flutter run
 
 ## D. Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
 1. Pada halaman login, user melakukan login terlebih dahulu menggunakan email dan juga password, untuk sekarang masih dalam tahap pengembangan jadi login nya belum tersimpan di database jadi bersifat statis artinya dapat menggunakan email apapun dan password apapun asalkan memenuhi ketentuan
