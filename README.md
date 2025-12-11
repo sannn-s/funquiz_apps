@@ -15,7 +15,16 @@ Aplikasi ini menggunakan Firebase Realtime Database yang diakses melalui protoko
    Endpoint ini digunakan untuk mengambil seluruh database soal (Sports, History, dll) dalam satu kali request.
    - Method: GET
 
-## C. Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
+## C. Cara Instalasi
+1. Prasyarat Sistem
+   - Flutter SDK (versi stabil terbaru)
+   - Android Studio (dengan plugin Flutter) atau Visual Studio Code (dengan ekstensi Flutter)
+   - Koneksi internet (Wajib untuk fetch API)
+   - Emulator Android/iOS atau smartphone untuk menjalankan aplikasi
+2. Langkah Instalasi
+   - Download folder FunQuizApps
+
+## D. Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
 1. Pada halaman login, user melakukan login terlebih dahulu menggunakan email dan juga password, untuk sekarang masih dalam tahap pengembangan jadi login nya belum tersimpan di database jadi bersifat statis artinya dapat menggunakan email apapun dan password apapun asalkan memenuhi ketentuan
 2. Kemudian di halaman berikutnya, user dapat memilih ingin memulai quiz dengan pilihan random quiz atau quiz sesuai kategori
 3. Jika sudah menentukan, user akan masuk ke halaman quiz yang dimana terdapat soal dan juga jawaban. Setelah user melihat soal dan jika sudah menebak jawaban atau belum terpikirkan jawaban nya apa user dapat menekan card pertanyaan tersebut dan card tersebut akan berbalik kemudian user dapat melihat jawaban nya
